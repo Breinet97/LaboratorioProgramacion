@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-content{
+    background: url(../images/tunja_2.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    border: 2px solid black;
+    background-color: rgba(224, 223, 223, 0.852);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 750px;
+    height: 500px;
+}
+.login-box-content{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
